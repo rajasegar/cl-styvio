@@ -8,9 +8,6 @@
   (:export :*web*))
 (in-package :cl-styvio.web)
 
-;; for @route annotation
-(syntax:use-syntax :annot)
-
 ;;
 ;; Application
 

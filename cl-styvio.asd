@@ -16,7 +16,10 @@
                "dexador"
 
                ;; json
-               "cl-json")
+               "cl-json"
+
+							 ;; dotenv
+							 "cl-dotenv")
   :components ((:module "src"
                 :components
                 ((:file "main" :depends-on ("config" "view" "db"))
